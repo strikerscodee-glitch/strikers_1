@@ -1,0 +1,534 @@
+*{
+            border: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            align-content: center;
+            height: 2600px;
+            width: 1500px; 
+        }
+        .d1{
+            height: 40px;
+            width: 1480px;
+            padding-bottom: 90px;
+            padding-top: 30px;
+        }
+        .hcontent{
+            padding-left: 100px;
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+        }
+        .logo{
+            display: flex;
+            flex-direction: row;   
+        }
+        .logo img{
+            padding-top: 5px;
+        }
+        .logo1{
+            font-size: 26px;
+            color: black;
+            font-weight: bolder;
+            padding-top: 3px;
+            padding-left: 25px;
+            padding-right: 150px;
+        }
+        .nav{
+            padding-top: 7px;
+            font-size: medium;
+            font-style: italic;
+            padding-left: 150px;
+            padding-right: 380px;
+            word-spacing: 20px;
+        }
+        @media  screen and (max-width:260px) {
+            .nav{
+                display: none;
+            }
+        }
+        .link{
+            color: black;
+        }
+        .contact{
+            border: 2px solid #151617;
+            background-color: #5f7de3;
+            color: #f3eded;
+            font-size: medium;
+            font-weight: 50px;
+            padding-top: 2px;
+            height: 25px;
+            width: 120px;
+        }
+        @media  screen and (max-width:260px) {
+            .contact{
+                display: none;
+            }
+        }
+        .b1{
+            display: none;
+            height: 25px;
+        }
+        @media  screen and (max-width:260px) {
+            .b1{
+                display: block;
+                align-items: end;
+            }
+        }
+        .icon{
+            height: 19px;
+            width: 20px;
+            padding-top: 2px;
+        }
+        .content{
+            height: 550px;
+            padding: 50px;
+        }
+        @media  screen and (max-width:260px) {
+            .content{
+                padding-bottom: 1000px;
+            }
+        }
+        .s1{
+            height: 500px;
+            width: 1380px;
+            display: flex;
+            flex-direction: row;
+            padding: 20px;
+            padding-left: 110px;
+            gap: 70px;
+        }
+        @media  screen and (max-width:260px) {
+            .s1{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .left{
+            width: 600px;
+            animation: slidefromleft 5s ease forwards;
+            opacity: 0;
+        }
+        @keyframes slidefromleft {
+            
+            0%{
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            100%{
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        #ab{
+            font-size: large;
+            font-style: italic;
+            color: rgb(216, 31, 31);
+            font-weight: bolder;
+            padding-bottom: 6px;
+        }
+        .left h1{
+            font-weight: 50px;
+            font-size: 59px;
+            padding-top: 25px;
+            padding-bottom: 30px;
+        }
+        .left cd{
+            font-size: medium;
+            font-weight: bold;
+            color: rgb(11, 11, 11);
+        }
+        .button{
+            display: flex;
+            flex-direction: row;
+            padding-top: 60px;
+            gap: 10px;
+        }
+        .b2{
+            width: 80px;
+            border: 1px solid blue;
+            background-color: blue;
+            color: white;
+        }
+        .b3{
+            width: 80px;
+            border: 1px solid rgb(9, 9, 9);
+            background-color: rgb(9, 9, 9);
+            color: white;
+        }
+        .right{
+            width: 50%;
+        }
+        .right img{
+            width: 500px;
+            height: 450px;
+            border: 1px solid white;
+            border-radius: 10px;
+            transition: all 5s 0s;
+        }
+        .right img:hover{
+            transform :scale(1.2)
+        }
+        
+        .d2{
+            width: 1500px;
+            height: 800px;
+            background-color: rgb(219, 218, 218);
+            padding: 0px;
+            padding-left: 350px;
+            padding-bottom: 20px;
+        }
+        .card{
+            height: 820px;
+            width: 797px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .card1 h2{
+            padding-left: 250px;
+            padding-bottom: 10px;
+        }
+        .card1 p{
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+        .card2{
+            display: grid;
+            grid-template-columns: auto auto;
+            height: 680px;
+            width: 757px;
+            grid-row-gap: 20px;
+            grid-column-gap: 20px;
+            padding: 20px;
+        }
+        .griditem1{
+            background-color: rgb(67, 67, 225);
+            width: 350px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .griditem2{
+            background-color: rgba(248, 22, 236, 0.514); 
+            width: 350px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .griditem3{
+            background-color: orange;
+            width: 350px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .griditem4{
+            background-color: rgba(43, 226, 220, 0.637);
+            width: 350px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .griditem5{
+            background-color: rgba(200, 34, 19, 0.847);
+            width: 350px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .griditem6{
+            background-color: rgb(85, 46, 117);
+            width: 350px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .gi{
+            height: 50px;
+            padding-left: 140px;
+            padding-right: 140px;
+            padding-bottom: 15px;
+        }
+        .gh{
+            color: white;
+            font-size: 18px;
+            padding-left: 80px;
+            padding-bottom: 10px;
+        }
+        .gh1{
+            color: white;
+            font-size: 18px;
+            padding-left: 115px;
+            padding-bottom: 10px;
+        }
+        .gp{
+            text-align: center;
+            color: white;
+        }
+        .text{
+            width: 1500px;
+            height: 270px;
+            padding: 20px;
+            padding-left: 250px;
+            padding-right: 250px;
+        }
+        .t1{
+            height: 230px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-left: 7px;
+            padding-right: 7px;
+        }
+        .t2{
+            height: 190px;
+            display: flex;
+            flex-direction: row;
+            padding-top: 3px;
+            padding-bottom: 2px;
+            padding-left: 10px;
+            padding-right: 10px;
+            gap: 20px;
+        }
+        .t3{
+            height: 180px;
+            width: 400px;
+            border: 1px solid rgb(204, 203, 203);
+            border-radius: 5px;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            transition: all 4s 0s;
+        }
+        .t3:hover{
+            transform :scale(1.1)
+        }
+        .it{
+            padding-top: 15px;
+            padding-left: 120px;
+            padding-bottom: 9px;
+            height: 55px;
+            width: 165px;
+        }
+        .pt1{
+            color: blue;
+            font-weight: bold;
+        }
+        .d4{
+            width: 1500px;
+            height: 350px;
+            padding-left: 190px;
+            padding-right: 190px;
+            padding-top: 10px;
+        }
+        .section{
+            height: 330px;
+            display: flex;
+            flex-direction: row;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+        }
+        .s-left{
+            width: 540px;
+        }
+        .s-left img{
+            height: 326px;
+            width: 540px;
+            transition: all 5s 0s;
+        }
+        .s-left img:hover{
+
+            transform :scale(0.6)
+        }
+        .s-right{
+            width: 540px;
+            background-color: azure;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 65px;
+            padding-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+        }
+        .s-right h1{
+            font-size: 47px;
+            color: #234fe0;
+        }
+        .s-right p{
+            padding-bottom: 5px;
+        }
+        form{
+            height: 45px;
+            width: 255px;
+            background-color: white;
+            border: 2px solid #234fe0;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            gap: 10px;
+        }
+        input{
+            height: 30px;
+            border: 2px solid black;
+            padding-right: 15px;
+        }
+        button{
+            height: 25px;
+            width: 55px;
+            background-color: #234fe0;
+            color: white;
+        }
+        .r1{
+            padding-top: 10px;
+            height: 40px;
+            width: 450px;
+            display: flex;
+            flex-direction: row;
+            font-size: 13px;
+            gap: 3px;
+        }
+        .footer{
+            height: 325px;
+            width: 1500px;
+            display: flex;
+            flex-direction: column;
+            padding-left: 150px;
+            padding-right: 150px;
+            color: black;
+        }
+        .f1{
+            height: 300px;
+            width: 1200px;
+            padding: 50px;
+            padding-left: 110px;
+            display: flex;
+            flex-direction: row;
+            gap: 60px;
+        }
+        .fl1{
+            height: 270px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-content: center;
+            padding: 20px;
+        }
+        .ls{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .ls h5{
+            font-size: larger;
+            padding-top: 15px;
+            padding-left: 15px;
+        }
+        .ls1{
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+            width: 260px;
+        }
+        .ls1 img{
+            width: 30px;
+            padding-top: 10px;
+        }
+        .ls3{
+            display: flex;
+            flex-direction: row;
+            height: 70px;
+            width: 260px;
+            gap: 10px;
+        }
+        .ls3 img{
+            width: 25px;
+            height: 25px;
+        }
+        .fl2{
+            gap: 30px;
+            display: flex;
+            flex-direction: row;
+            width:600px;
+            height: 250px;
+            padding: 20px;
+            padding-left: 60px;
+            gap: 30px;
+        }
+        .gz{
+            height: 210px;
+            width: 100px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 20px;
+            padding: 5px;
+        }
+        .gz a{
+            color: black;
+            text-decoration: none;
+        }
+        .gx{
+            height: 220px;
+            width: 100px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 15px;
+            padding: 5px;
+        }
+        .gx a{
+            color: black;
+            text-decoration: none;
+        }
+        .gc{
+            height: 190px;
+            width: 100px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 20px;
+            padding: 5px;
+        }
+        .gc a{
+            color: black;
+            text-decoration: none;
+        }
+        .gv{
+            height: 160px;
+            width: 100px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 20px;
+            padding: 5px;
+        }
+        .gv a{
+            color: black;
+            text-decoration: none;
+        }
+        .f2{
+            height: 25px;
+            text-align: center;
+            padding-top: 3px;
+        }
