@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecipeWorld</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"> 
+        <div class="d1">
+            <div class="hcontent">
+                <a href="@logo" class="logo">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.bJTT7Vz2tN7LeCO1uPRa-AHaHo&pid=Api&P=0&h=35">
+                    <p class="logo1">RecipeWorld</p>
+                </a>
+                <nav class="nav">
+                    <a href="@home" class="link">HOME</a>
+                    <a href="@pricing" class="link">PRICING</a>
+                    <a href="@features" class="link">FEATURES</a> 
+                    <a href="@blog" class="link">BLOG</a> 
+                    <a href="@about" class="link">ABOUT</a>
+                </nav>
+                <a href="contact" class="contact">
+                    CONTACT US
+                </a> 
+                <button type="button1" class="b1">
+                    <img src="https://pngimg.com/uploads/buttons/buttons_PNG147.png" alt="menu butten" class="icon">
+                </button>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="s1">
+                <div class="left">
+                    <p id="ab">Very proud to introduce</p>
+                    <h1>Seamless Learing for Brighter Futures</h1>
+                    <P class="cd">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi et repellendus asperiores dignissimos corporis 
+                        expedita, numquam sunt rem voluptatibus ipsum nihil. Repudiandae dolores omnis excepturi facere ratione dignissimos
+                        a corrupti rerum, sequi libero ducimus commodi earum cumque possimus mollitia minima.
+                    </P>
+                    <div class="button"> 
+                        <button type="button2" class="b2">
+                            Start Now
+                        </button>
+                        <button type="button2" class="b3">
+                            Take Now
+                        </button>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="https://i.pinimg.com/736x/01/dd/7a/01dd7a17f5eae98af6b777b35e6e1c0d--love-art-the-room.jpg">
+                </div> 
+            </div>
+        </div>
+        
+        <div class="d2">
+            <div class="card">
+                <div class="card1">
+                    <h2>Our competitive advantage</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio similique aliquid vel velit. Incidunt voluptatum architecto,
+                        delectus eum voluptatibus ratione?
+                    </p>
+                </div>
+                <div class="card2">
+                    <div class="griditem1">
+                        <img src="https://www.oogalights.com/Home-Garden/Lighting/Light-Bulbs/536881-A19-Medium-Base-Blue-Light-Bulb.jpg" class="gi">
+                        <h3 class="gh">Personalised Learning</h3>
+                        <p class="gp">
+                            It  is an educational approach that aims to customize learning for each student’s strengths,skills,and interests.
+                        </p>
+                    </div>
+                    <div class="griditem2">
+                        <img src="http://static1.squarespace.com/static/609701bc21f2ee5734517421/60970285376c3c778d0d2e8b/62047f9a8640f73d11469b7c/1646805982409/Pink+Money+Bag+Glitter+Cover+WM+1.jpg?format=1500w" class="gi">
+                        <h3 class="gh1">Affordability</h3>
+                        <p class="gp">
+                            To be able to do or spare something, esp without incurring financial difficulties or without risk of undesirable consequences.
+                        </p>
+                    </div>
+                    <div class="griditem3">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.byjtB4fgJlh0Y7cXqn_gwAHaFW&pid=Api&P=0&h=180" class="gi">
+                        <h3 class="gh">Industry Partnership</h3>
+                        <p class="gp">
+                            It is an arrangement between two or more people to oversee business operations and share its profits and liabilities. 
+                        </p>
+                    </div>
+                    <div class="griditem4">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.BPZpy1UeDbnNMsMpQrcEAQHaFj&pid=Api&P=0&h=180" class="gi">
+                        <h3 class="gh">Innovative Technology</h3>
+                        <p class="gp">
+                            It is defined as the creation and application of new or improved technologies, tools, systems, and processes that bring about significant advancements
+                        </p>
+                    </div>
+                    <div class="griditem5">
+                        <img src="https://cdn.pixabay.com/photo/2014/04/02/11/16/phone-305741_640.png" class="gi">
+                        <h3 class="gh">Responsive Support</h3>
+                        <p class="gp">
+                            It refers to how quickly and accurately your business is able to address support requests.
+                        </p>
+                    </div>
+                    <div class="griditem6">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.YGkqVcuxIV3ICCrlyiL1DQAAAA&pid=Api&P=0&h=180" class="gi">
+                        <h3 class="gh">Analytics and Insights</h3>
+                        <p class="gp">
+                            It is an influential platform dedicated to insights, trends, and opinion from the world of data-driven technologies. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text">
+            <div class="t1">
+                <h2 class="ht">What Others Say About Us</h2>
+                <div class="t2">
+                    <div class="t3">
+                        <p class="pt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure maxime doloremque odio cumque maiores impedit delectus aliquid inventore vitae accusamus!</p>
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.obFOH1_lF-yR7mMuHl3TPwHaHa&pid=Api&P=0&h=180" class="it">
+                        <p class="pt1">Sarah Johnson</p>
+                        <p class="it2">8th Grade English Teacher</p>
+                    </div>
+                    <div class="t3">
+                        <p class="pt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure maxime doloremque odio cumque maiores impedit delectus aliquid inventore vitae accusamus!</p>
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.b1pDxAfF4puafLP7ZrN9PAHaE7&pid=Api&P=0&h=180" class="it">
+                        <p class="pt1">Mark Davis</p>
+                        <p class="it2">Parent</p>
+                    </div>
+                    <div class="t3">
+                        <p class="pt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure maxime doloremque odio cumque maiores impedit delectus aliquid inventore vitae accusamus!</p>
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.Llho5l0UhMwBvUjNlbjJLgAAAA&pid=Api&P=0&h=180" class="it">
+                        <p class="pt1">Dr.James Carter</p>
+                        <p class="it2">School Administrator</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="d4">
+            <div class="section">
+                <div class="s-left">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.ukgUw4lYlKP4P5yVEePUIQHaEK&pid=Api&P=0&h=180">
+                </div>
+                <div class="s-right">
+                    <h1>Get the latest updates</h1>
+                    <p>Sign up for our newsletter</p>
+                    <form>
+                        <input type="email" name="email" placeholder="Email"/>
+                        <button>Send</button>
+                    </form>
+                    <div class="r1">
+                        <p>By signing up to our newsletter you agree to our</p>
+                        <a href="terms of service">Term of Service</a>
+                        <p>and</p>
+                        <a href="privacy policy">Privacy Policy.</a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <div class="footer">
+            <div class="f1">
+                <div class="fl1">
+                    <div class="ls">
+                        <div class="ls1">
+                            <img src="https://tse1.mm.bing.net/th?id=OIP.bJTT7Vz2tN7LeCO1uPRa-AHaHo&pid=Api&P=0&h=25">                       
+                            <h5>StudySrc</h5>
+                        </div>
+                        <div class="ls2">
+                            <p>Seamless Learning for Brighter Futures.</p>
+                        </div>
+                        <div class="ls3">
+                           <img src="http://clipart-library.com/new_gallery/3-35207_instagram-logo-black-transparent.png">
+                           <img src="https://tse1.mm.bing.net/th?id=OIP.SVb-flIK3vc0uIm7_QkfFAHaGB&pid=Api&P=0&h=180z">
+                           <img src="https://1000logos.net/wp-content/uploads/2017/03/Symbol-LinkedIn.jpg">
+                           <img src="https://www.citypng.com/public/uploads/preview/-11600714838h7bubtj8dh.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="fl2">
+                    <div class="gz">
+                        <h4>Products</h4>
+                        <a href="overview">Overview</a>
+                        <a href="Solutions">Solutions</a>
+                        <a href="Pricing">Pricing</a>
+                        <a href="Customers">Customers</a>
+                    </div>
+                    <div class="gx">
+                        <h4>Company</h4>
+                        <a href="About">About</a>
+                        <a href="Investor Relations">Investor Relations</a>
+                        <a href="Jobs">Jobs</a>
+                        <a href="Press">Press</a>
+                        <a href="Blog">Blog</a>                      
+                    </div>
+                    <div class="gc">
+                        <h4>Support</h4>
+                        <a href="Contact">Contact</a>
+                        <a href="Documentation">Documentation</a>
+                        <a href="Chat">Chat</a>
+                        <a href="FAQ">FAQ</a>
+                    </div>
+                    <div class="gv">
+                        <h4>Legal</h4>
+                        <a href="Terms of Service">Terms of Service</a>
+                        <a href="Privacy Policy">Privacy Policy</a>
+                        <a href="Cookie settings">Cookie settings</a>    
+                    </div>
+                </div>
+            </div>
+            <div class="f2">
+                &copy; 2021-Present StudySrc.All rights reserved.
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
