@@ -1,4 +1,4 @@
-*{
+        *{
             border: 0px;
             margin: 0px;
             box-sizing: border-box;
@@ -27,6 +27,7 @@
         }
         .logo img{
             padding-top: 5px;
+            width: 20px;
         }
         .logo1{
             font-size: 26px;
@@ -83,7 +84,7 @@
             padding-top: 2px;
         }
         .content{
-            height: 550px;
+            height: 400px;
             padding: 50px;
         }
         @media  screen and (max-width:260px) {
@@ -106,186 +107,83 @@
                 flex-direction: column;
             }
         }
-        .left{
-            width: 600px;
-            animation: slidefromleft 5s ease forwards;
-            opacity: 0;
-        }
-        @keyframes slidefromleft {
-            
-            0%{
-                opacity: 0;
-                transform: translateX(-100%);
-            }
-            100%{
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-        #ab{
-            font-size: large;
-            font-style: italic;
-            color: rgb(216, 31, 31);
-            font-weight: bolder;
-            padding-bottom: 6px;
-        }
-        .left h1{
-            font-weight: 50px;
-            font-size: 59px;
-            padding-top: 25px;
-            padding-bottom: 30px;
-        }
-        .left cd{
-            font-size: medium;
-            font-weight: bold;
-            color: rgb(11, 11, 11);
-        }
-        .button{
+        .search {
+            height: 100px;
+            flex-grow: 1;
             display: flex;
-            flex-direction: row;
-            padding-top: 60px;
-            gap: 10px;
+            justify-content: center;
+            align-items: center;
         }
-        .b2{
-            width: 80px;
-            border: 1px solid blue;
-            background-color: blue;
-            color: white;
+        .search input[type="text"] {
+            padding: 6px;
+            margin-right: 10px;
+            border: none;
+            font-size: 17px;
+            border-radius: 4px;
         }
-        .b3{
-            width: 80px;
-            border: 1px solid rgb(9, 9, 9);
-            background-color: rgb(9, 9, 9);
+        .search button {
+            padding: 6px 10px;
+            background: white;
+            color: green;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .search button i {
+            font-size: 18px;
+        }
+        .search button:hover {
+            background: darkgreen;
             color: white;
         }
         .right{
             width: 50%;
         }
         .right img{
-            width: 500px;
-            height: 450px;
+            width: 350px;
+            height: 250px;
             border: 1px solid white;
             border-radius: 10px;
-            transition: all 5s 0s;
+            transition: all 3s 0s;
+            cursor: pointer;
         }
         .right img:hover{
-            transform :scale(1.2)
+            transform :scale(1.1)
         }
-        
         .d2{
             width: 1500px;
-            height: 800px;
+            height: 1050px;
             background-color: rgb(219, 218, 218);
             padding: 0px;
-            padding-left: 350px;
-            padding-bottom: 20px;
-        }
-        .card{
-            height: 820px;
-            width: 797px;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
         }
         .card1 h2{
-            padding-left: 250px;
-            padding-bottom: 10px;
-        }
-        .card1 p{
-            padding-left: 25px;
-            padding-right: 25px;
-            padding-bottom: 30px;
             text-align: center;
+            padding-top: 20px;
+            text-size-adjust: 20px;
         }
         .card2{
             display: grid;
-            grid-template-columns: auto auto;
+            grid-template-columns: auto auto auto;
             height: 680px;
             width: 757px;
+            text-align: center;
             grid-row-gap: 20px;
             grid-column-gap: 20px;
             padding: 20px;
         }
-        .griditem1{
-            background-color: rgb(67, 67, 225);
-            width: 350px;
-            height: 200px;
-            display: flex;
-            flex-direction: column;
-            border-radius: 5px;
-            padding: 10px;
-        }
-        .griditem2{
-            background-color: rgba(248, 22, 236, 0.514); 
-            width: 350px;
-            height: 200px;
-            display: flex;
-            flex-direction: column;
-            border-radius: 5px;
-            padding: 10px;
-        }
-        .griditem3{
-            background-color: orange;
-            width: 350px;
-            height: 200px;
-            display: flex;
-            flex-direction: column;
-            border-radius: 5px;
-            padding: 10px;
-        }
-        .griditem4{
-            background-color: rgba(43, 226, 220, 0.637);
-            width: 350px;
-            height: 200px;
-            display: flex;
-            flex-direction: column;
-            border-radius: 5px;
-            padding: 10px;
-        }
-        .griditem5{
-            background-color: rgba(200, 34, 19, 0.847);
-            width: 350px;
-            height: 200px;
-            display: flex;
-            flex-direction: column;
-            border-radius: 5px;
-            padding: 10px;
-        }
-        .griditem6{
-            background-color: rgb(85, 46, 117);
-            width: 350px;
-            height: 200px;
-            display: flex;
-            flex-direction: column;
-            border-radius: 5px;
-            padding: 10px;
-        }
         .gi{
-            height: 50px;
-            padding-left: 140px;
-            padding-right: 140px;
+            height: 300px;
+            width: 480px;
+            padding-left: 30px;
+            padding-right: 40px;
             padding-bottom: 15px;
-        }
-        .gh{
-            color: white;
-            font-size: 18px;
-            padding-left: 80px;
-            padding-bottom: 10px;
-        }
-        .gh1{
-            color: white;
-            font-size: 18px;
-            padding-left: 115px;
-            padding-bottom: 10px;
-        }
-        .gp{
-            text-align: center;
-            color: white;
         }
         .text{
             width: 1500px;
             height: 270px;
             padding: 20px;
+            padding-top: 40px;
+            padding-bottom: 20px;
             padding-left: 250px;
             padding-right: 250px;
         }
